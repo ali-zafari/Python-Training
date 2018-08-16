@@ -1,6 +1,3 @@
-brain=" Know yourself! Understand yourself! Correct yourself! "
-brain=brain.strip()
-print(brain)
-change=brain.split("yourself!")
-print( change)
-print(len(change))
+grade = {'mahdi':20 , 'amin':15 ,'keyvan':19 ,'behzad':11}
+z = list(grade.items())
+z[1] = ('raha',15)
