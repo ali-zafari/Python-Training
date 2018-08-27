@@ -7,5 +7,7 @@ while age != -1:
     if age >oldestAge:
         olderAge = oldestAge
         oldestAge = age
-
-print(oldestAge, olderAge)
+if (oldestAge != 0) and (olderAge != 0) :
+    print(oldestAge, olderAge)
+elif (olderAge == 0) and (oldestAge != 0) :
+    print(oldestAge)
